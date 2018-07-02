@@ -1,0 +1,23 @@
+
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LoyaltyPoints", "LoyaltyPoints\LoyaltyPoints.csproj", "{417A173C-B382-49C1-A898-2FC2BF1A14EC}"
+EndProject
+Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-compose.dcproj", "{8363EBE4-E7A2-4FC2-8CA7-FB7FD21F8030}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{417A173C-B382-49C1-A898-2FC2BF1A14EC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{417A173C-B382-49C1-A898-2FC2BF1A14EC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{417A173C-B382-49C1-A898-2FC2BF1A14EC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{417A173C-B382-49C1-A898-2FC2BF1A14EC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8363EBE4-E7A2-4FC2-8CA7-FB7FD21F8030}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8363EBE4-E7A2-4FC2-8CA7-FB7FD21F8030}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8363EBE4-E7A2-4FC2-8CA7-FB7FD21F8030}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8363EBE4-E7A2-4FC2-8CA7-FB7FD21F8030}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
