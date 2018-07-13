@@ -8,7 +8,7 @@ namespace LoyaltyPoints.Service
         public String connectionString;
         public Connector()
         {
-            connectionString = @"host=168.1.113.131;port=30916;userid=root;password=OnaogzaOmm;database=customerpointsdb";
+            connectionString = Environment.GetEnvironmentVariable("CONN_STRING");
         }
 
         public CustomerLoyaltyPoints GetPoints(String customerNumber)
